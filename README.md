@@ -5,6 +5,7 @@ This project is a comprehensive introduction to setting up and working with Next
 
 ## Project Structure
 
+```
 alx-project-0x02/
 ├── components/
 │   ├── common/
@@ -35,7 +36,7 @@ alx-project-0x02/
 ├── package.json
 ├── README.md
 └── tsconfig.json
-
+```
 --
 
 ## Expected Outcomes
