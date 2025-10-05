@@ -14,7 +14,7 @@ const Home: React.FC = () => {
 
             <Card title="This is just the beginning" content="We are going to church and I am coding" />
             <Card title="I am going to be very great and wealthy" content="God please forgive me of all my sins, I am a sinner" />
-            <button className onClick={() => setIsModalOpen(!isModalOpen)}>Open / close Post Modal</button>
+            <button onClick={() => setIsModalOpen(!isModalOpen)}>Open / close Post Modal</button>
 
             { isModalOpen && <PostModal/>}
         </div>
